@@ -1,0 +1,11 @@
+var Form = React.createClass({
+    render: function() {
+        return <div>
+        <Badge title={this.props.title} number={this.props.number} />
+        </div>
+    }
+    
+// createClass
+var options = {
+title: 'Inbox',
+number
